@@ -1,0 +1,118 @@
+.name h2 {
+  margin-left: 600px;
+}
+
+.name {
+  height: auto;
+  width: 100%;
+  background-color: bisque;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Card {
+  height: 50vh;
+  width: 28%;
+  background-color: aliceblue;
+  margin-left: 35px;
+  padding: 8px;
+  margin-right: 40px;
+}
+
+.artImage {
+  height: 55%;
+  width: 100%;
+  background-color: black;
+
+}
+
+.ArticleName {
+  height: 10%;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gold;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bolder;
+
+}
+
+
+.TutorialName {
+  height: 10%;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gold;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bolder;
+
+}
+
+.Description {
+  height: 25%;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gold;
+
+
+}
+
+.Rating {
+  height: 100%;
+  width: 50%;
+  background-color: transparent;
+}
+
+.AuthorName {
+  height: 100%;
+  width: 50%;
+  background-color: transparent;
+}
+
+.Info {
+  height: 10%;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.star {
+  height: 100%;
+  width: 100%;
+  background-color: goldenrod;
+  border: 0px;
+  font-size: 1.1rem;
+}
+
+.buttonDiv {
+ 
+  width: 100%;
+  height: 40%;
+
+}
+
+.Div {
+  width: 100%;
+  height: 40%;
+  margin-left: 650px;
+
+}
+
+
+.searchButton {
+  margin-left: 600px;
+  
+
+}

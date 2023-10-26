@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe to DEV@Deakin</title>
+</head>
+
+<style>
+    .heading {
+        display: flex;
+        justify-content: center;
+        background-color: bisque;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .mail {
+        margin-left: 580px;
+    }
+
+    .text label {
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    .text input[type="text"] {
+        font-size: 20px;
+    }
+
+    .S {
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    .S input[type="email"] {
+        font-size: 20px;
+    }
+
+.D {
+        font-size: 35px;
+        margin-left: 242px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <div class="heading">
+        <h1>Subscribe to DEV@Deakin</h1>
+    </div>
+    <br>
+    <div class="mail">
+        <div class="text">
+            <form id="subscribeForm" action="/subscribe" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+        </div>
+        <br>
+        <div class="S">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+            <div class ="D">
+                <button type="submit">Subscribe</button>
+            </div>
+            
+        
+
+        </form>
+    </div>
+
+    <p id="message"></p>
+</body>
+
+</html>
